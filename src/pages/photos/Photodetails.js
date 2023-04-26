@@ -46,7 +46,7 @@ const Photodetails = () => {
           </div>
         </div>
       ) : (
-        <div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <Skeleton variant="rectangular" />
           <Skeleton
             style={{
